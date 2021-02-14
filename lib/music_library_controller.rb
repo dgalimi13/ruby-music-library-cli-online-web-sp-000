@@ -72,7 +72,7 @@ end
     if Song.all[input-1]
     list = Song.all.sort_by {|song| song.name}
     
-    puts "#{list[input-1]}"
+    puts "#{list[input-1].name}"
     
     end
   end 
