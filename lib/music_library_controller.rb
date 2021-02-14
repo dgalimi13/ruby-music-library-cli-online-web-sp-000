@@ -73,7 +73,7 @@ end
       list = Song.all.sort_by {|song| song.name}
       puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     end
-    if input < 1 || list.cout 
+    if input < 1 || input > list.cout 
       return nil
     end
   end 
