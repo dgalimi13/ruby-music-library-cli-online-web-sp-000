@@ -33,9 +33,17 @@ case input
 when "list genres"
   list_genres
 end 
+case input 
+when "list artist"
+  list_songs_by_artist
+end  
+case input 
+when "list genre"
+  list_songs_by_genre
+end 
+
 
 end
-
 end
 
 def list_songs
