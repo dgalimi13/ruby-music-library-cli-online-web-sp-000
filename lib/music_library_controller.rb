@@ -75,7 +75,6 @@ end
     list[index] = list[input-1]
     list[index]
     end
-    end 
    end 
 
 end 
