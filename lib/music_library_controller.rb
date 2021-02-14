@@ -70,17 +70,15 @@ end
     puts  "Which song number would you like to play?"
     input = gets.to_i
     if Song.all[input-1]
-    list = Song.all.sort_by {|song| song.name}
-    
-    puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
-    
+      list = Song.all.sort_by {|song| song.name}
+      puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     end
     if input < 1 || list.length 
       return nil
     end
   end 
 
-end 
+  end 
 
 
 
