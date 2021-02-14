@@ -73,6 +73,8 @@ end
       list = Song.all.sort_by {|song| song.name}
       puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     end
+    
+    
   end 
 
   end 
