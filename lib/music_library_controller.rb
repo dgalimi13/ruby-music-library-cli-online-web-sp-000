@@ -72,7 +72,7 @@ end
     if Song.all[input-1]
     list = Song.all.sort_by {|song| song.name}
     
-    puts "Playing #{list[input-1].name} by #{list[input-1].artist}"
+    puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     
     end
   end 
