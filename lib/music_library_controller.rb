@@ -75,6 +75,7 @@ end
     puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     
     end
+    if 
   end 
 
 end 
