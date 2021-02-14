@@ -69,7 +69,8 @@ end
 def play_song
 puts  "Which song number would you like to play?"
 input = gets.to_i
-binding.pry
+list_songs
+
 
   
  end 
