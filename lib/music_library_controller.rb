@@ -77,6 +77,7 @@ end
     end
     if input < 1 || list.length 
       return nil
+    end
   end 
 
 end 
