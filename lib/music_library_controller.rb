@@ -25,6 +25,10 @@ puts "What would you like to do?"
  when "list songs" 
    list_songs
 end 
+case input 
+when "list artists"
+  list_artists
+end
 end
 
 end
