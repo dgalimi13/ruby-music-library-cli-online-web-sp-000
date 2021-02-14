@@ -72,10 +72,8 @@ end
     
     if Song.all[input-1]
     list = Song.all.sort_by {|song| song.name}
-    list.each_with_index do |song, index|
-      if index = input-1
-        song
-      end
+    list[index] = list[input-1]
+    list[index]
     end
     end 
    end 
