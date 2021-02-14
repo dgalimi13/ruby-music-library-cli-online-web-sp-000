@@ -41,6 +41,11 @@ case input
 when "list genre"
   list_songs_by_genre
 end 
+case input
+when "play song"
+  play_song
+end 
+
 
 
 end
