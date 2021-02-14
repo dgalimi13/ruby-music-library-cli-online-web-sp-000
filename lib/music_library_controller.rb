@@ -69,7 +69,7 @@ end
   def play_song
     puts  "Which song number would you like to play?"
     input = gets.to_i
-    if Song.all[input-1]
+    if input.between?(1,Song.all.size)
       list = Song.all.sort_by {|song| song.name}
       puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     end
