@@ -75,7 +75,8 @@ end
     puts "Playing #{list[input-1].name} by #{list[input-1].artist.name}"
     
     end
-    if 
+    if input < 1 || list.length 
+      return nil
   end 
 
 end 
