@@ -71,11 +71,10 @@ end
     input = gets.to_i
     
     if Song.all[input-1]
-    Song.all.sort_by {|song| song.name}
-    return list[input-1]
+    list = Song.all.sort_by {|song| song.name}
+    list
   
-  
-      end 
+    end 
    end 
 
 end 
